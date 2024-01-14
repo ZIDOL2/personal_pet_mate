@@ -8,10 +8,13 @@ KH정보교육원 세미프로젝트
 
 [ZIDOL2 작업내용]
 - 로그인, 회원가입, 아이디/비밀번호 찾기
-- 공지사항, 자유게시판 CRUD  
+- 공지사항, 자유게시판 CRUD
 
-[작업파일]
+  
+[작업파일]  
+😀 로그인, 회원가입, 아이디/비밀번호 찾기
 - src/main/java/com/kh/member/controller/MemberEnrollController.java
+- src/main/java/com/kh/member/controller/MemberIdCheckController.java
 - src/main/java/com/kh/member/controller/MemberLoginController.java
 - src/main/java/com/kh/member/controller/MemberLogoutController.java
 - src/main/java/com/kh/member/controller/FindIdController.java
@@ -19,9 +22,12 @@ KH정보교육원 세미프로젝트
 - src/main/java/com/kh/member/model/dao/MemberDao.java
 - src/main/java/com/kh/member/model/service/MemberService.java
 - src/main/java/db/sql/member-mapper.xml
-- src/main/java/db/sql/board-mapper.xml
 - src/main/webapp/views/member/enrollPage.jsp
 - src/main/webapp/views/member/loginPage.jsp
+
+📖 공지사항, 게시판
+- src/main/java/com/kh/board
+- src/main/java/db/sql/board-mapper.xml
 - src/main/webapp/views/board
 
 
